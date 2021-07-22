@@ -1,5 +1,5 @@
 {
-    "name": "@gjs-types/environment",
+    "name": "@gi-types/gjs-environment",
     "publishConfig": {
         "access": "public",
         "tag": "latest"
