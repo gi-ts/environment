@@ -4,11 +4,14 @@
 
 /// <reference path="./modules/gettext.d.ts" />
 /// <reference path="./modules/system.d.ts" />
+/// <reference path="./modules/console.d.ts" />
 
 declare function log(msg: any): void;
 declare function print(msg: any): void;
 declare function logError(error: Error, msg?: string): void;
 declare function printerr(msg: any): void;
+
+declare var console: Console;
 
 declare interface GjsGiImports {
     versions: {
